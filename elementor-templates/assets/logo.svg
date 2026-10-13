@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 130" fill="none">
+  <!-- DMS Emerald Geometric Ribbon Symbol -->
+  <g transform="translate(10, 15)">
+    <!-- Continuous Ribbon Path -->
+    <path d="M 28,20 
+             C 14,20 4,32 4,50 
+             C 4,68 14,80 28,80 
+             C 42,80 60,64 74,50 
+             C 88,36 106,20 120,20 
+             C 134,20 144,32 144,50 
+             C 144,68 134,80 120,80 
+             C 106,80 88,64 74,50 
+             Z" 
+          stroke="#00A859" 
+          stroke-width="16" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+  </g>
+
+  <!-- DIPLOMAT Wordmark in Bold Black -->
+  <text x="182" y="70" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-weight="900" font-size="48" fill="#000000" letter-spacing="1.5">DIPLOMAT</text>
+
+  <!-- Subtitle: MANAGEMENT SERVICES CO W.L.L -->
+  <text x="184" y="98" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-weight="700" font-size="13" fill="#000000" letter-spacing="3.2">MANAGEMENT SERVICES CO W.L.L</text>
+</svg>

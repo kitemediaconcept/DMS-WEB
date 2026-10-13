@@ -1,0 +1,69 @@
+{
+  "version": "0.4",
+  "title": "DMS - Four Story Beats (1984 Legacy)",
+  "type": "section",
+  "content": [
+    {
+      "id": "m52np07",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "defaultEditSettings": {},
+      "elements": [
+        {
+          "id": "l198ze2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {},
+          "elements": [
+            {
+              "id": "ff2c1ng",
+              "elType": "widget",
+              "isInner": false,
+              "settings": {
+                "html": "\n<section class=\"story-section\" id=\"story\">\n  <div class=\"container\">\n    <div class=\"story-header\">\n      <span class=\"section-tag\">Four Decades of Trust</span>\n      <h2 class=\"section-title\">Built on Understanding. Grow Through Trust.</h2>\n      <p class=\"section-desc\">The narrative core of Diplomat since 1984 — listen carefully, explain clearly, and make the next step easier for the client.</p>\n    </div>\n    <div class=\"story-beats-container\">\n      <div class=\"story-beat-card\">\n        <span class=\"beat-number\">Beat 01</span>\n        <h4 class=\"beat-headline\">1984 — One Man, One Conviction</h4>\n        <p class=\"beat-body\">Mohamed Al Yahya founded DMS with a simple belief: individuals and businesses seeking help with government procedures deserve clarity, patience, and practical support.</p>\n      </div>\n      <div class=\"story-beat-card\">\n        <span class=\"beat-number\">Beat 02</span>\n        <h4 class=\"beat-headline\">The Founding Principle</h4>\n        <p class=\"beat-body\">Solutions, not new problems. \"Listen carefully. Explain clearly. Be patient. Make the next step easier for the client.\" That formula remains unchanged today.</p>\n      </div>\n      <div class=\"story-beat-card\">\n        <span class=\"beat-number\">Beat 03</span>\n        <h4 class=\"beat-headline\">Relationships Over Transactions</h4>\n        <p class=\"beat-body\">Rather than viewing applications as single invoices, DMS built multi-generational partnerships where companies rely on Diplomat as an organic extension of their own teams.</p>\n      </div>\n      <div class=\"story-beat-card\">\n        <span class=\"beat-number\">Beat 04</span>\n        <h4 class=\"beat-headline\">Today — 40+ Years, 1,500 Clients</h4>\n        <p class=\"beat-body\">Modern systems backed by four decades of institutional memory, managing complex corporate compliance and global mobility with unmatched precision.</p>\n      </div>\n    </div>\n  </div>\n</section>\n",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {},
+              "widgetType": "html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": "0.4",
+  "title": "DMS - Frequently Asked Questions Accordion",
+  "type": "section",
+  "content": [
+    {
+      "id": "zx0iwlf",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "defaultEditSettings": {},
+      "elements": [
+        {
+          "id": "3jxdyll",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {},
+          "elements": [
+            {
+              "id": "72osxjt",
+              "elType": "widget",
+              "isInner": false,
+              "settings": {
+                "html": "\n<section class=\"faq-section\" id=\"faq\">\n  <div class=\"container faq-grid\">\n    <div class=\"faq-sidebar\">\n      <span class=\"section-tag\">Common Inquiries</span>\n      <h3>Clear Answers to Regulatory Questions</h3>\n      <p class=\"section-desc\">Everything you need to know about partnering with Diplomat Management Services in Bahrain.</p>\n      <div class=\"faq-support-box\">\n        <h5>Free Document Delivery</h5>\n        <p>We provide complimentary pickup and delivery of sensitive official paperwork across Bahrain.</p>\n        <a href=\"#contact\" class=\"btn-primary-pill\" style=\"padding: 10px 20px; font-size: 13.5px; display: inline-block;\">Request Document Pickup</a>\n      </div>\n    </div>\n    <div class=\"faq-list\">\n      <div class=\"faq-item active\">\n        <div class=\"faq-question\"><span>Who is Diplomat Management Services (DMS) Bahrain?</span></div>\n        <div class=\"faq-answer\" style=\"max-height: none; padding-bottom: 20px;\"><p>DMS is a Bahrain-based strategic consultancy with over 40 years of experience providing GRO, visa services, company formation, and corporate administration to enterprises and families.</p></div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-question\"><span>What visa services does DMS offer?</span></div>\n        <div class=\"faq-answer\" style=\"max-height: none; padding-bottom: 20px;\"><p>We manage Bahrain visit visas, Golden Visas, Self-Sponsorship residence permits, Family Joining visas for KSA Iqama holders, Saudi visas (as an authorized Saudi Embassy agent), and global outbound visas.</p></div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-question\"><span>Do you provide company formation and CR renewal services?</span></div>\n        <div class=\"faq-answer\" style=\"max-height: none; padding-bottom: 20px;\"><p>Yes. We manage end-to-end commercial registrations (CR), annual CR renewals, business activity amendments, commercial address updates, and equity ownership transfers with MOIC.</p></div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-question\"><span>Does DMS handle mandatory annual compliance filings?</span></div>\n        <div class=\"faq-answer\" style=\"max-height: none; padding-bottom: 20px;\"><p>Yes, including Ultimate Beneficial Ownership (UBO) declarations, Economic Substance Requirements (ESR) filings, and corporate annual audit report submissions.</p></div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-question\"><span>Is there a document collection and delivery service?</span></div>\n        <div class=\"faq-answer\" style=\"max-height: none; padding-bottom: 20px;\"><p>Yes. We provide safe, verified, and free pickup & delivery of confidential passports and corporate documentation directly across Bahrain.</p></div>\n      </div>\n    </div>\n  </div>\n</section>\n",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {},
+              "widgetType": "html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Categories | Diplomat Management Services Co. W.L.L. (DMS Bahrain)</title>
+  <meta name="description" content="Explore the 11 core service categories offered by Diplomat Management Services in Bahrain. Visas, CR formation, Saudi Embassy services, compliance, and WPS.">
+  <!-- Apple SF Pro Display Typography (iPhone / Mac system typography) -->
+  <link rel="preconnect" href="https://fonts.cdnfonts.com">
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Capsule Navbar -->
+  <header class="header-wrapper">
+    <nav class="capsule-nav" aria-label="Main Navigation">
+      <div class="nav-brand">
+        <a href="index.html">
+          <img src="assets/dms-logo-nav-original.png" alt="Diplomat Management Services" class="nav-brand-img">
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li class="nav-dropdown">
+          <a href="categories.html" class="active">
+            <span>Categories</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="categories.html#01"><span class="drop-num">01</span> Bahrain Visa & Residence Permits</a>
+            <a href="categories.html#02"><span class="drop-num">02</span> Company Formation Services</a>
+            <a href="categories.html#03"><span class="drop-num">03</span> Bahrain Golden Visa Services</a>
+            <a href="categories.html#04"><span class="drop-num">04</span> Family Joining Visa (KSA)</a>
+            <a href="categories.html#05"><span class="drop-num">05</span> Document Attestation Services</a>
+            <a href="categories.html#06"><span class="drop-num">06</span> Self-Sponsorship Visa</a>
+            <a href="categories.html#07"><span class="drop-num">07</span> Global Visa Assistance</a>
+            <a href="categories.html#08"><span class="drop-num">08</span> Saudi Visa Services</a>
+            <a href="categories.html#09"><span class="drop-num">09</span> Management & Admin Consultancy</a>
+            <a href="categories.html#10"><span class="drop-num">10</span> Annual Compliance Services</a>
+            <a href="categories.html#11"><span class="drop-num">11</span> WPS Full Set Up & Support</a>
+          </div>
+        </li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Desktop Book Consultation (Hidden on mobile) -->
+        <button class="btn-contact-pill" data-open-modal="consultation">
+          <span>Book Consultation</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Navigation Drawer Overlay -->
+    <div class="mobile-drawer-overlay" id="mobileDrawerOverlay">
+      <div class="mobile-drawer-content">
+        <div class="mobile-drawer-header">
+          <img src="assets/dms-logo-nav-original.png" alt="Diplomat Management Services" class="mobile-drawer-logo">
+          <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close Navigation Menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <nav class="mobile-drawer-nav">
+          <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-nav-link"><span>Home</span></a></li>
+            <li><a href="about-us.html" class="mobile-nav-link"><span>About Us</span></a></li>
+            <li class="mobile-dropdown-item is-expanded">
+              <div class="mobile-dropdown-trigger" id="mobileCategoriesTrigger">
+                <span>Categories (11 Services)</span>
+                <svg class="chevron-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </div>
+              <div class="mobile-dropdown-sublist" id="mobileCategoriesSublist">
+                <a href="categories.html#01"><span class="num">01</span> Bahrain Visa & Residence Permits</a>
+                <a href="categories.html#02"><span class="num">02</span> Company Formation Services</a>
+                <a href="categories.html#03"><span class="num">03</span> Bahrain Golden Visa Services</a>
+                <a href="categories.html#04"><span class="num">04</span> Family Joining Visa (KSA)</a>
+                <a href="categories.html#05"><span class="num">05</span> Document Attestation Services</a>
+                <a href="categories.html#06"><span class="num">06</span> Self-Sponsorship Visa</a>
+                <a href="categories.html#07"><span class="num">07</span> Global Visa Assistance</a>
+                <a href="categories.html#08"><span class="num">08</span> Saudi Visa Services</a>
+                <a href="categories.html#09"><span class="num">09</span> Management & Admin Consultancy</a>
+                <a href="categories.html#10"><span class="num">10</span> Annual Compliance Services</a>
+                <a href="categories.html#11"><span class="num">11</span> WPS Full Set Up & Support</a>
+              </div>
+            </li>
+            <li><a href="blogs.html" class="mobile-nav-link"><span>Blogs</span></a></li>
+            <li><a href="faq.html" class="mobile-nav-link"><span>FAQ</span></a></li>
+            <li><a href="contact-us.html" class="mobile-nav-link"><span>Contact Us</span></a></li>
+          </ul>
+        </nav>
+
+        <div class="mobile-drawer-footer">
+          <button class="btn-mobile-consult" data-open-modal="consultation">
+            <span>Book Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </button>
+          <div class="mobile-quick-contacts">
+            <a href="tel:+97317226610" class="mobile-contact-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+973 1722 6610</span>
+            </a>
+            <a href="https://wa.me/97339462618" target="_blank" rel="noopener noreferrer" class="mobile-contact-pill whatsapp">
+              <span>💬 WhatsApp Us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Categories Hero -->
+    <section class="hero-section" style="min-height: auto; padding: 160px 0 60px 0;">
+      <div class="hero-glow-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span>Core Capabilities Architecture</span>
+        </div>
+        <h1 class="hero-title" style="font-size: 50px;">
+          11 Strategic Service Categories<br>
+          <span class="highlight-green">Tailored for Bahrain & the GCC</span>
+        </h1>
+        <p class="hero-subtitle">
+          Each service is designed around the business problem it removes. We carry the operational burden so you can dedicate full focus to enterprise growth.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" style="padding-top: 20px;">
+      <div class="container">
+        <!-- Live Category Filters -->
+        <div class="services-header-row" style="margin-bottom: 40px;">
+          <div>
+            <span class="section-tag">Category Directory</span>
+            <h2 class="section-title">Explore Capabilities</h2>
+          </div>
+          <div class="category-filter-tabs">
+            <button class="filter-tab active" data-category="all">All (11 Categories)</button>
+            <button class="filter-tab" data-category="visa">Visas & Immigration</button>
+            <button class="filter-tab" data-category="corporate">Company Formation</button>
+            <button class="filter-tab" data-category="embassy">Saudi & Attestation</button>
+            <button class="filter-tab" data-category="compliance">Compliance & WPS</button>
+          </div>
+        </div>
+
+        <!-- 11 Services Grid -->
+        <div class="services-grid" id="servicesGrid">
+          <!-- 01 -->
+          <div class="service-card" id="01" data-category="visa">
+            <div class="card-top">
+              <span class="service-num-badge">01</span>
+              <h3 class="service-title">Bahrain Visa and Residence Permit Services</h3>
+              <p class="service-desc">
+                Comprehensive handling of investor visas, employee work permits, dependent visas, and residency transfers coordinating with LMRA, NPRA, and Ministry authorities.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">LMRA & NPRA</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Bahrain Visa & Residence Permits">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 02 -->
+          <div class="service-card" id="02" data-category="corporate">
+            <div class="card-top">
+              <span class="service-num-badge">02</span>
+              <h3 class="service-title">Company Formation Services</h3>
+              <p class="service-desc">
+                End-to-end commercial registration (CR) setup, 100% foreign ownership guidance, activity additions, branch openings, and enterprise licensing with MOIC.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">MOIC Registration</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Company Formation Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 03 -->
+          <div class="service-card" id="03" data-category="visa">
+            <div class="card-top">
+              <span class="service-num-badge">03</span>
+              <h3 class="service-title">Bahrain Golden Visa Services</h3>
+              <p class="service-desc">
+                Elite 10-year renewable residency guidance for property investors, high-earning professionals, and extraordinary talents with strict eligibility compliance.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">10-Year Residency</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Bahrain Golden Visa Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 04 -->
+          <div class="service-card" id="04" data-category="visa">
+            <div class="card-top">
+              <span class="service-num-badge">04</span>
+              <h3 class="service-title">Family Joining Visa for KSA Residence Holders</h3>
+              <p class="service-desc">
+                Specialized residency pathways allowing dependents of Saudi Iqama holders to reside comfortably in Bahrain while commuting across King Fahd Causeway.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">Causeway & KSA</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Family Joining Visa for KSA Residents">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 05 -->
+          <div class="service-card" id="05" data-category="embassy">
+            <div class="card-top">
+              <span class="service-num-badge">05</span>
+              <h3 class="service-title">Document Attestation Services</h3>
+              <p class="service-desc">
+                Speedy, certified legalization of commercial contracts, board resolutions, degrees, and certificates through MOFA Bahrain, embassies, and the Ministry of Justice.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">MOFA & Embassies</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Document Attestation Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 06 -->
+          <div class="service-card" id="06" data-category="visa">
+            <div class="card-top">
+              <span class="service-num-badge">06</span>
+              <h3 class="service-title">Self-Sponsorship Visa Services</h3>
+              <p class="service-desc">
+                Independent residency rights without a corporate sponsor for property purchasers, retirees, and accredited investors establishing permanent roots in Bahrain.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">Self-Sponsorship</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Self-Sponsorship Visa Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 07 -->
+          <div class="service-card" id="07" data-category="visa">
+            <div class="card-top">
+              <span class="service-num-badge">07</span>
+              <h3 class="service-title">Global Visa Services</h3>
+              <p class="service-desc">
+                Comprehensive outbound mobility assistance connecting Bahrain residents with European Schengen zones, the UK, United States, Canada, and Asian destinations.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">Worldwide Travel</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Global Visa Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 08 -->
+          <div class="service-card" id="08" data-category="embassy">
+            <div class="card-top">
+              <span class="service-num-badge">08</span>
+              <h3 class="service-title">Saudi Visa Services</h3>
+              <p class="service-desc">
+                Official Authorized Agent of the Embassy of Saudi Arabia in Bahrain. Commercial visit visas, temporary work permits, family visits, and transit visas into KSA.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">Auth. Saudi Agent</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Saudi Visa Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 09 -->
+          <div class="service-card" id="09" data-category="corporate">
+            <div class="card-top">
+              <span class="service-num-badge">09</span>
+              <h3 class="service-title">Management and Administration Consultancy</h3>
+              <p class="service-desc">
+                Corporate structuring, regulatory audit consulting, outsourced corporate secretarial functions, and dedicated PRO fleet management for institutional firms.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">Corporate Advisory</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Management and Administration Consultancy">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 10 -->
+          <div class="service-card" id="10" data-category="compliance">
+            <div class="card-top">
+              <span class="service-num-badge">10</span>
+              <h3 class="service-title">Annual Compliance Services</h3>
+              <p class="service-desc">
+                Proactive regulatory maintenance including Ultimate Beneficial Owner (UBO) filings, Economic Substance Requirements (ESR), and corporate financial audit filings.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">ESR & UBO Compliance</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="Annual Compliance Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+
+          <!-- 11 -->
+          <div class="service-card" id="11" data-category="compliance">
+            <div class="card-top">
+              <span class="service-num-badge">11</span>
+              <h3 class="service-title">WPS Full Set Up and Support Services</h3>
+              <p class="service-desc">
+                Authorized LMRA Registration Centre support for full Wage Protection System (WPS) bank integrations, payroll compliance audits, and commercial license renewals.
+              </p>
+            </div>
+            <div class="card-bottom">
+              <span class="service-pill-tag">LMRA WPS Centre</span>
+              <button class="btn-card-learn" data-open-modal="consultation" data-service-name="WPS Full Set Up and Support Services">
+                <span>Inquire Capability</span> →
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compliance Disclaimer Notice -->
+        <div class="compliance-banner" style="margin-top: 50px;">
+          <div class="shield-icon">⚖️</div>
+          <p>
+            <strong>Official Compliance Disclaimer:</strong> Diplomat Management Services Co. W.L.L. provides expert guidance, document vetting, and submission assistance. On Golden Visa and immigration processes, approval is strictly subject to Immigration and Ministry authorities based on eligibility. No guarantee of approval is implied anywhere on this site.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/dms-logo-original.png" alt="Diplomat Management Services Co. W.L.L." class="footer-brand-img" style="height: 52px; width: auto;">
+          <p>Strategic Business Support & Government Relations Partner in the Kingdom of Bahrain. Established 1984.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul class="footer-links">
+            <li><a href="categories.html#01">Bahrain Visa & Permits</a></li>
+            <li><a href="categories.html#02">Company Formation</a></li>
+            <li><a href="categories.html#03">Bahrain Golden Visa</a></li>
+            <li><a href="categories.html#08">Saudi Visa Services</a></li>
+            <li><a href="categories.html#10">Compliance & WPS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact-info">
+          <h5>Corporate Office</h5>
+          <p>Office No 21 & 22, Building 08, Road 1901, Block 319 Kingdom Tower, Al Hoora, Bahrain</p>
+          <p><strong>Tel:</strong> +973 17290001</p>
+          <p><strong>Mobile:</strong> +973 39694343</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 1984 – 2026 Diplomat Management Services Co. W.L.L. All rights reserved.</p>
+        <p>Reliable · Resourceful · Responsible</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

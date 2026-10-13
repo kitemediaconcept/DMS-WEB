@@ -1,0 +1,69 @@
+{
+  "version": "0.4",
+  "title": "DMS - Brand Positioning (Strategic Partner)",
+  "type": "section",
+  "content": [
+    {
+      "id": "a53m6zn",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "defaultEditSettings": {},
+      "elements": [
+        {
+          "id": "bqoascn",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {},
+          "elements": [
+            {
+              "id": "uqfgti6",
+              "elType": "widget",
+              "isInner": false,
+              "settings": {
+                "html": "\n<section class=\"positioning-section\" id=\"positioning\">\n  <div class=\"container\">\n    <span class=\"section-tag\">Brand Philosophy</span>\n    <h2 class=\"section-title\">A Strategic Partner That Carries Your Function</h2>\n    <p class=\"section-desc\">\n      Diplomat is not just a vendor you hire for a single errand. We act as an integral extension of your organization, removing regulatory friction so you can focus entirely on growth.\n    </p>\n    <div class=\"positioning-grid\">\n      <div class=\"positioning-card not-card\">\n        <span class=\"card-label-badge\">❌ What We Are Not</span>\n        <h3>A Vendor for One-off Tasks</h3>\n        <ul class=\"positioning-list\">\n          <li><span class=\"icon\">✕</span><span><strong>No generic paperwork runners:</strong> We don't just \"submit and hope\" — we architect compliant outcomes.</span></li>\n          <li><span class=\"icon\">✕</span><span><strong>No transactional vendor mindsets:</strong> We don't walk away when a single form is stamped.</span></li>\n          <li><span class=\"icon\">✕</span><span><strong>No confusing government bureaucracy:</strong> You never have to spend leadership hours standing in ministry queues.</span></li>\n        </ul>\n      </div>\n      <div class=\"positioning-card are-card\">\n        <span class=\"card-label-badge\">✓ What We Are</span>\n        <h3>Your Ongoing Strategic Partner</h3>\n        <ul class=\"positioning-list\">\n          <li><span class=\"icon\">✓</span><span><strong>A dedicated function you hand over:</strong> We manage entire government relations portfolios proactively.</span></li>\n          <li><span class=\"icon\">✓</span><span><strong>Freed executive capacity:</strong> Your leadership gains back hundreds of hours every quarter.</span></li>\n          <li><span class=\"icon\">✓</span><span><strong>Solutions, not new problems:</strong> Four decades of institutional mastery navigating Bahrain authorities.</span></li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</section>\n",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {},
+              "widgetType": "html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

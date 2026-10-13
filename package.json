@@ -1,0 +1,19 @@
+{
+  "name": "dms-bahrain-redesign",
+  "version": "1.0.0",
+  "description": "Diplomat Management Services Co. W.L.L. - Modern Minimalist Website & Elementor Templates",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -p 3000 .",
+    "sync": "node sync-service.js --watch",
+    "build:templates": "node sync-service.js",
+    "watch": "node sync-service.js --watch"
+  },
+  "keywords": [
+    "elementor",
+    "dms-bahrain",
+    "wordpress-templates"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

@@ -1,0 +1,69 @@
+{
+  "version": "0.4",
+  "title": "DMS - Theme Builder Executive Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "a6hb2tw",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "defaultEditSettings": {},
+      "elements": [
+        {
+          "id": "wy358ge",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {},
+          "elements": [
+            {
+              "id": "vb4mhz0",
+              "elType": "widget",
+              "isInner": false,
+              "settings": {
+                "html": "\n<footer class=\"site-footer\">\n  <div class=\"container\">\n    <div class=\"footer-grid\">\n      <div class=\"footer-brand\">\n        <img src=\"assets/dms-logo-original.png\" alt=\"Diplomat Management Services Co. W.L.L.\" style=\"height: 52px; width: auto;\">\n        <p>Strategic Business Support & Government Relations Partner in the Kingdom of Bahrain. Established 1984.</p>\n      </div>\n      <div class=\"footer-col\">\n        <h5>Capabilities</h5>\n        <ul class=\"footer-links\">\n          <li><a href=\"#capabilities\">Bahrain Visas & Permits</a></li>\n          <li><a href=\"#capabilities\">Company Formation</a></li>\n          <li><a href=\"#capabilities\">Bahrain Golden Visa</a></li>\n          <li><a href=\"#capabilities\">Saudi Visa Services</a></li>\n          <li><a href=\"#capabilities\">Annual Compliance & WPS</a></li>\n        </ul>\n      </div>\n      <div class=\"footer-col\">\n        <h5>Company</h5>\n        <ul class=\"footer-links\">\n          <li><a href=\"#story\">Our Story (1984)</a></li>\n          <li><a href=\"#positioning\">Strategic Value</a></li>\n          <li><a href=\"#accreditations\">Saudi Embassy Agent</a></li>\n          <li><a href=\"#accreditations\">LMRA Centre</a></li>\n          <li><a href=\"#faq\">FAQ</a></li>\n        </ul>\n      </div>\n      <div class=\"footer-col footer-contact-info\">\n        <h5>Corporate Office</h5>\n        <p>Office No 21 & 22, Building 08, Road 1901, Block 319 Kingdom Tower, Al Hoora, Kingdom of Bahrain</p>\n        <p><strong>Tel:</strong> +973 17290001</p>\n        <p><strong>Mobile:</strong> +973 39694343 / +973 39694436</p>\n      </div>\n    </div>\n    <div class=\"footer-bottom\">\n      <p>© 1984 – 2026 Diplomat Management Services Co. W.L.L. All rights reserved.</p>\n      <p>Reliable · Resourceful · Responsible</p>\n    </div>\n  </div>\n</footer>\n",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {},
+              "widgetType": "html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

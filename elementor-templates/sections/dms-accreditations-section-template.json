@@ -1,0 +1,69 @@
+{
+  "version": "0.4",
+  "title": "DMS - Accreditations & Trust Bar",
+  "type": "section",
+  "content": [
+    {
+      "id": "9mua5zq",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "defaultEditSettings": {},
+      "elements": [
+        {
+          "id": "123avjr",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {},
+          "elements": [
+            {
+              "id": "pysp8vj",
+              "elType": "widget",
+              "isInner": false,
+              "settings": {
+                "html": "\n<div class=\"trust-bar-section\" id=\"accreditations\">\n  <div class=\"container trust-bar-grid\">\n    <div class=\"trust-item\">\n      <div class=\"trust-badge-icon\">🏛️</div>\n      <div class=\"trust-item-content\">\n        <h5>Auth. Agent of Saudi Embassy</h5>\n        <p>Accredited consular processing & visa facilitation</p>\n      </div>\n    </div>\n    <div class=\"trust-item\">\n      <div class=\"trust-badge-icon\">📋</div>\n      <div class=\"trust-item-content\">\n        <h5>Auth. LMRA Registration Centre</h5>\n        <p>Official Labour Market Regulatory support</p>\n      </div>\n    </div>\n    <div class=\"trust-item\">\n      <div class=\"trust-badge-icon\">⏳</div>\n      <div class=\"trust-item-content\">\n        <h5>40+ Years in Bahrain</h5>\n        <p>Continuously operating with trust since 1984</p>\n      </div>\n    </div>\n    <div class=\"trust-item\">\n      <div class=\"trust-badge-icon\">🤝</div>\n      <div class=\"trust-item-content\">\n        <h5>1,500+ Active Clients</h5>\n        <p>Corporate institutions, banks, families & investors</p>\n      </div>\n    </div>\n  </div>\n</div>\n",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {},
+              "widgetType": "html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": "0.4",
+  "title": "DMS - 11 Core Capabilities Grid",
+  "type": "section",
+  "content": [
+    {
+      "id": "3s6g2w7",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "defaultEditSettings": {},
+      "elements": [
+        {
+          "id": "0e5e58a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "defaultEditSettings": {},
+          "elements": [
+            {
+              "id": "cbroxhe",
+              "elType": "widget",
+              "isInner": false,
+              "settings": {
+                "html": "\n<section class=\"services-section\" id=\"capabilities\">\n  <div class=\"container\">\n    <div class=\"services-header-row\">\n      <div>\n        <span class=\"section-tag\">Our Capabilities</span>\n        <h2 class=\"section-title\">Core Services Driving Business Agility</h2>\n        <p class=\"section-desc\">11 Partner capabilities engineered to remove government complexity.</p>\n      </div>\n    </div>\n    <div class=\"services-grid\">\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">01</span><h3 class=\"service-title\">Bahrain Visa & Residence Permits</h3><p class=\"service-desc\">Comprehensive handling of investor visas, employee work permits, and family residency coordination with LMRA and NPRA.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">LMRA & NPRA</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">02</span><h3 class=\"service-title\">Company Formation Services</h3><p class=\"service-desc\">End-to-end commercial registration (CR), foreign ownership setup, activity additions, and enterprise licensing with MOIC.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">MOIC Registration</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">03</span><h3 class=\"service-title\">Bahrain Golden Visa Services</h3><p class=\"service-desc\">Strategic qualification evaluation and precision documentation for high-net-worth individuals, property owners, and exceptional talents.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">10-Year Residency</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">04</span><h3 class=\"service-title\">Family Joining Visa for KSA Residents</h3><p class=\"service-desc\">Seamless Bahrain residency pathways for dependents of Saudi Iqama holders living across the Causeway or relocating to Bahrain.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">Causeway & GCC</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">05</span><h3 class=\"service-title\">Document Attestation Services</h3><p class=\"service-desc\">Official legalization of educational, corporate, and personal documents with Ministry of Foreign Affairs (MOFA), Notary, and embassies.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">MOFA & Embassies</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">06</span><h3 class=\"service-title\">Self-Sponsorship Visa Services</h3><p class=\"service-desc\">Independent residence permit pathways without requiring a local corporate employer for property purchasers and foreign investors.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">Independent Living</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">07</span><h3 class=\"service-title\">Global Visa Assistance</h3><p class=\"service-desc\">Expert visa processing connecting Bahrain with the world — Schengen, UK, USA, Canada, and Asian business travel applications.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">Outbound Mobility</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">08</span><h3 class=\"service-title\">Saudi Visa Services</h3><p class=\"service-desc\">As an accredited Authorized Agent of the Saudi Embassy in Bahrain, we facilitate direct commercial, work visit, and family visas into KSA.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">Saudi Embassy Agent</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">09</span><h3 class=\"service-title\">Management & Admin Consultancy</h3><p class=\"service-desc\">Outsourced corporate administration, PRO fleet management, and business advisory services tailored for multinationals and local SMEs.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">Corporate Advisory</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">10</span><h3 class=\"service-title\">Annual Compliance Services</h3><p class=\"service-desc\">Total regulatory peace of mind covering Ultimate Beneficial Ownership (UBO) filings, Economic Substance (ESR), and audit submissions.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">ESR & UBO Filings</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n      <div class=\"service-card\">\n        <div class=\"card-top\"><span class=\"service-num-badge\">11</span><h3 class=\"service-title\">WPS Set Up & Support Services</h3><p class=\"service-desc\">Complete compliance setup for Bahrain’s Wage Protection System (WPS) and authorized LMRA registrations, safeguarding legal corporate standing.</p></div>\n        <div class=\"card-bottom\"><span class=\"service-pill-tag\">LMRA WPS Approved</span><a href=\"#contact\" class=\"btn-card-learn\">Inquire Capability →</a></div>\n      </div>\n    </div>\n    <div class=\"compliance-banner\" style=\"margin-top: 36px;\">\n      <div class=\"shield-icon\">⚖️</div>\n      <p><strong>Official Compliance Notice:</strong> Diplomat Management Services Co. W.L.L. provides strategic guidance, documentation coordination, and administrative assistance. Approval is subject to Immigration authorities based on eligibility. No guarantee of approval is implied.</p>\n    </div>\n  </div>\n</section>\n",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "defaultEditSettings": {},
+              "widgetType": "html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

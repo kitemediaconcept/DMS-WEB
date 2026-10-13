@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogs & Insights | Diplomat Management Services Co. W.L.L. (DMS Bahrain)</title>
+  <meta name="description" content="Stay informed with regulatory insights, Bahrain visa procedures, Golden Visa updates, and corporate compliance news from Diplomat Management Services.">
+  <!-- Apple SF Pro Display Typography (iPhone / Mac system typography) -->
+  <link rel="preconnect" href="https://fonts.cdnfonts.com">
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Capsule Navbar -->
+  <header class="header-wrapper">
+    <nav class="capsule-nav" aria-label="Main Navigation">
+      <div class="nav-brand">
+        <a href="index.html">
+          <img src="assets/dms-logo-nav-original.png" alt="Diplomat Management Services" class="nav-brand-img">
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li class="nav-dropdown">
+          <a href="categories.html">
+            <span>Categories</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="categories.html#01"><span class="drop-num">01</span> Bahrain Visa & Residence Permits</a>
+            <a href="categories.html#02"><span class="drop-num">02</span> Company Formation Services</a>
+            <a href="categories.html#03"><span class="drop-num">03</span> Bahrain Golden Visa Services</a>
+            <a href="categories.html#04"><span class="drop-num">04</span> Family Joining Visa (KSA)</a>
+            <a href="categories.html#05"><span class="drop-num">05</span> Document Attestation Services</a>
+            <a href="categories.html#06"><span class="drop-num">06</span> Self-Sponsorship Visa</a>
+            <a href="categories.html#07"><span class="drop-num">07</span> Global Visa Assistance</a>
+            <a href="categories.html#08"><span class="drop-num">08</span> Saudi Visa Services</a>
+            <a href="categories.html#09"><span class="drop-num">09</span> Management & Admin Consultancy</a>
+            <a href="categories.html#10"><span class="drop-num">10</span> Annual Compliance Services</a>
+            <a href="categories.html#11"><span class="drop-num">11</span> WPS Full Set Up & Support</a>
+          </div>
+        </li>
+        <li><a href="blogs.html" class="active">Blogs</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Desktop Book Consultation (Hidden on mobile) -->
+        <button class="btn-contact-pill" data-open-modal="consultation">
+          <span>Book Consultation</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Navigation Drawer Overlay -->
+    <div class="mobile-drawer-overlay" id="mobileDrawerOverlay">
+      <div class="mobile-drawer-content">
+        <div class="mobile-drawer-header">
+          <img src="assets/dms-logo-nav-original.png" alt="Diplomat Management Services" class="mobile-drawer-logo">
+          <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close Navigation Menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <nav class="mobile-drawer-nav">
+          <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-nav-link"><span>Home</span></a></li>
+            <li><a href="about-us.html" class="mobile-nav-link"><span>About Us</span></a></li>
+            <li class="mobile-dropdown-item">
+              <div class="mobile-dropdown-trigger" id="mobileCategoriesTrigger">
+                <span>Categories (11 Services)</span>
+                <svg class="chevron-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </div>
+              <div class="mobile-dropdown-sublist" id="mobileCategoriesSublist">
+                <a href="categories.html#01"><span class="num">01</span> Bahrain Visa & Residence Permits</a>
+                <a href="categories.html#02"><span class="num">02</span> Company Formation Services</a>
+                <a href="categories.html#03"><span class="num">03</span> Bahrain Golden Visa Services</a>
+                <a href="categories.html#04"><span class="num">04</span> Family Joining Visa (KSA)</a>
+                <a href="categories.html#05"><span class="num">05</span> Document Attestation Services</a>
+                <a href="categories.html#06"><span class="num">06</span> Self-Sponsorship Visa</a>
+                <a href="categories.html#07"><span class="num">07</span> Global Visa Assistance</a>
+                <a href="categories.html#08"><span class="num">08</span> Saudi Visa Services</a>
+                <a href="categories.html#09"><span class="num">09</span> Management & Admin Consultancy</a>
+                <a href="categories.html#10"><span class="num">10</span> Annual Compliance Services</a>
+                <a href="categories.html#11"><span class="num">11</span> WPS Full Set Up & Support</a>
+              </div>
+            </li>
+            <li><a href="blogs.html" class="mobile-nav-link active"><span>Blogs</span></a></li>
+            <li><a href="faq.html" class="mobile-nav-link"><span>FAQ</span></a></li>
+            <li><a href="contact-us.html" class="mobile-nav-link"><span>Contact Us</span></a></li>
+          </ul>
+        </nav>
+
+        <div class="mobile-drawer-footer">
+          <button class="btn-mobile-consult" data-open-modal="consultation">
+            <span>Book Consultation</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </button>
+          <div class="mobile-quick-contacts">
+            <a href="tel:+97317226610" class="mobile-contact-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+973 1722 6610</span>
+            </a>
+            <a href="https://wa.me/97339462618" target="_blank" rel="noopener noreferrer" class="mobile-contact-pill whatsapp">
+              <span>💬 WhatsApp Us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Blogs Hero -->
+    <section class="hero-section" style="min-height: auto; padding: 160px 0 60px 0;">
+      <div class="hero-glow-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span>Regulatory Intelligence & News</span>
+        </div>
+        <h1 class="hero-title" style="font-size: 50px;">
+          Government Relations &<br>
+          <span class="highlight-green">Compliance Insights</span>
+        </h1>
+        <p class="hero-subtitle">
+          Essential legal updates, visa guidelines, and corporate advisories to keep your Bahrain enterprise ahead of regulatory requirements.
+        </p>
+      </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section style="padding: 40px 0 100px 0; background: #ffffff;">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;">
+          <!-- Article 1 -->
+          <article style="border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; background: #ffffff; transition: var(--transition); box-shadow: 0 4px 14px rgba(0,0,0,0.03);">
+            <div style="background: linear-gradient(135deg, #0f172a, #1e293b); height: 180px; display: flex; align-items: center; justify-content: center; color: white; font-size: 44px;">
+              🇧🇭
+            </div>
+            <div style="padding: 28px;">
+              <span style="font-size: 12px; font-weight: 700; color: #00A859; text-transform: uppercase;">Visa Regulations</span>
+              <h3 style="font-size: 20px; font-weight: 800; margin: 10px 0; line-height: 1.4; color: #090e17;">
+                Simplifying Government Relations Services in Bahrain (2026 Guide)
+              </h3>
+              <p style="font-size: 14px; color: #475569; line-height: 1.6; margin-bottom: 20px;">
+                How businesses leverage strategic government relations partnerships to fast-track LMRA approvals, investor residency, and annual filings.
+              </p>
+              <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 14px; font-size: 13px; color: #94a3b8;">
+                <span>5 min read</span>
+                <span style="font-weight: 700; color: #007A3E;">Read Article →</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article style="border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; background: #ffffff; transition: var(--transition); box-shadow: 0 4px 14px rgba(0,0,0,0.03);">
+            <div style="background: linear-gradient(135deg, #005A36, #00A859); height: 180px; display: flex; align-items: center; justify-content: center; color: white; font-size: 44px;">
+              🌟
+            </div>
+            <div style="padding: 28px;">
+              <span style="font-size: 12px; font-weight: 700; color: #00A859; text-transform: uppercase;">Residency</span>
+              <h3 style="font-size: 20px; font-weight: 800; margin: 10px 0; line-height: 1.4; color: #090e17;">
+                Bahrain Golden Visa: Qualification Requirements & Strategy
+              </h3>
+              <p style="font-size: 14px; color: #475569; line-height: 1.6; margin-bottom: 20px;">
+                An in-depth breakdown of property valuation thresholds, salary criteria, and required paperwork for high-net-worth 10-year residency seekers.
+              </p>
+              <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 14px; font-size: 13px; color: #94a3b8;">
+                <span>7 min read</span>
+                <span style="font-weight: 700; color: #007A3E;">Read Article →</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article style="border: 1px solid #e2e8f0; border-radius: 20px; overflow: hidden; background: #ffffff; transition: var(--transition); box-shadow: 0 4px 14px rgba(0,0,0,0.03);">
+            <div style="background: linear-gradient(135deg, #0284c7, #0f172a); height: 180px; display: flex; align-items: center; justify-content: center; color: white; font-size: 44px;">
+              🇸🇦
+            </div>
+            <div style="padding: 28px;">
+              <span style="font-size: 12px; font-weight: 700; color: #00A859; text-transform: uppercase;">Saudi Relations</span>
+              <h3 style="font-size: 20px; font-weight: 800; margin: 10px 0; line-height: 1.4; color: #090e17;">
+                Cross-Border Mobility: Saudi Visa Services & Causeway Transit
+              </h3>
+              <p style="font-size: 14px; color: #475569; line-height: 1.6; margin-bottom: 20px;">
+                As an accredited Authorized Agent of the Saudi Embassy, here is how Diplomat accelerates business visit visas and family permits into KSA.
+              </p>
+              <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f1f5f9; padding-top: 14px; font-size: 13px; color: #94a3b8;">
+                <span>4 min read</span>
+                <span style="font-weight: 700; color: #007A3E;">Read Article →</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/dms-logo-original.png" alt="Diplomat Management Services Co. W.L.L." class="footer-brand-img" style="height: 52px; width: auto;">
+          <p>Strategic Business Support & Government Relations Partner in the Kingdom of Bahrain. Established 1984.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul class="footer-links">
+            <li><a href="categories.html#01">Bahrain Visa & Permits</a></li>
+            <li><a href="categories.html#02">Company Formation</a></li>
+            <li><a href="categories.html#03">Bahrain Golden Visa</a></li>
+            <li><a href="categories.html#08">Saudi Visa Services</a></li>
+            <li><a href="categories.html#10">Compliance & WPS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact-info">
+          <h5>Corporate Office</h5>
+          <p>Office No 21 & 22, Building 08, Road 1901, Block 319 Kingdom Tower, Al Hoora, Bahrain</p>
+          <p><strong>Tel:</strong> +973 17290001</p>
+          <p><strong>Mobile:</strong> +973 39694343</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 1984 – 2026 Diplomat Management Services Co. W.L.L. All rights reserved.</p>
+        <p>Reliable · Resourceful · Responsible</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
