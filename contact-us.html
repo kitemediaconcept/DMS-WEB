@@ -5,217 +5,168 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | Diplomat Management Services Co. W.L.L. (DMS Bahrain)</title>
   <meta name="description" content="Get in touch with Diplomat Management Services in Bahrain. Located at Kingdom Tower, Al Hoora. Tel: +973 17290001, Mobile: +973 39694343.">
-  <!-- Apple SF Pro Display Typography (iPhone / Mac system typography) -->
-  <link rel="preconnect" href="https://fonts.cdnfonts.com">
-  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+
+  <!-- Outset Typography: Satoshi (Fontshare), Inter & Roboto Mono (Google Fonts) -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,800,700,500,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Outset Digital Exact Design System Stylesheet -->
+  <link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
 
-  <!-- Floating Capsule Navbar -->
-  <header class="header-wrapper">
-    <nav class="capsule-nav" aria-label="Main Navigation">
-      <div class="nav-brand">
-        <a href="index.html">
-          <img src="assets/dms-logo-nav-original.png" alt="Diplomat Management Services" class="nav-brand-img">
+  <!-- ========================================================================
+       HEADER / NAVBAR (EXACT OUTSET DIGITAL STYLE)
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <div class="brand-wrapper">
+        <a href="index.html" aria-label="Diplomat Management Services Home">
+          <img src="assets/dms-logo-original.png" alt="Diplomat Management Services" class="brand-logo-img">
         </a>
       </div>
 
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li class="nav-dropdown">
-          <a href="categories.html">
-            <span>Categories</span>
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
-          </a>
-          <div class="nav-dropdown-menu">
-            <a href="categories.html#01"><span class="drop-num">01</span> Bahrain Visa & Residence Permits</a>
-            <a href="categories.html#02"><span class="drop-num">02</span> Company Formation Services</a>
-            <a href="categories.html#03"><span class="drop-num">03</span> Bahrain Golden Visa Services</a>
-            <a href="categories.html#04"><span class="drop-num">04</span> Family Joining Visa (KSA)</a>
-            <a href="categories.html#05"><span class="drop-num">05</span> Document Attestation Services</a>
-            <a href="categories.html#06"><span class="drop-num">06</span> Self-Sponsorship Visa</a>
-            <a href="categories.html#07"><span class="drop-num">07</span> Global Visa Assistance</a>
-            <a href="categories.html#08"><span class="drop-num">08</span> Saudi Visa Services</a>
-            <a href="categories.html#09"><span class="drop-num">09</span> Management & Admin Consultancy</a>
-            <a href="categories.html#10"><span class="drop-num">10</span> Annual Compliance Services</a>
-            <a href="categories.html#11"><span class="drop-num">11</span> WPS Full Set Up & Support</a>
-          </div>
-        </li>
-        <li><a href="blogs.html">Blogs</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact-us.html" class="active">Contact Us</a></li>
-      </ul>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="nav-dropdown">
+            <a href="categories.html" class="nav-dropdown-trigger">
+              <span>Services</span>
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="categories.html#01"><span class="drop-num">/01</span> Bahrain Visa & Residence Permits</a>
+              <a href="categories.html#02"><span class="drop-num">/02</span> Company Formation Services</a>
+              <a href="categories.html#03"><span class="drop-num">/03</span> Bahrain Golden Visa Services</a>
+              <a href="categories.html#04"><span class="drop-num">/04</span> Family Joining Visa (KSA)</a>
+              <a href="categories.html#05"><span class="drop-num">/05</span> Document Attestation Services</a>
+              <a href="categories.html#06"><span class="drop-num">/06</span> Self-Sponsorship Visa</a>
+              <a href="categories.html#07"><span class="drop-num">/07</span> Global Visa Assistance</a>
+              <a href="categories.html#08"><span class="drop-num">/08</span> Saudi Visa Services</a>
+              <a href="categories.html#09"><span class="drop-num">/09</span> Management & Admin Consultancy</a>
+              <a href="categories.html#10"><span class="drop-num">/10</span> Annual Compliance Services</a>
+              <a href="categories.html#11"><span class="drop-num">/11</span> WPS Full Set Up & Support</a>
+            </div>
+          </li>
+          <li><a href="index.html#approach">Our Approach</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact-us.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
 
-      <div class="nav-actions">
-        <!-- Desktop Book Consultation (Hidden on mobile) -->
-        <button class="btn-contact-pill" data-open-modal="consultation">
-          <span>Book Consultation</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="7" y1="17" x2="17" y2="7"></line>
-            <polyline points="7 7 17 7 17 17"></polyline>
-          </svg>
+      <div class="nav-actions-group">
+        <button class="btn-nav-outline" data-open-modal="consultation">
+          <span>Let's talk</span>
         </button>
 
-        <!-- Mobile Hamburger Menu Button -->
-        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
-          <span class="hamburger-bar"></span>
+        <button class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
-      </div>
-    </nav>
-
-    <!-- Mobile Navigation Drawer Overlay -->
-    <div class="mobile-drawer-overlay" id="mobileDrawerOverlay">
-      <div class="mobile-drawer-content">
-        <div class="mobile-drawer-header">
-          <img src="assets/dms-logo-nav-original.png" alt="Diplomat Management Services" class="mobile-drawer-logo">
-          <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close Navigation Menu">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>
-          </button>
-        </div>
-
-        <nav class="mobile-drawer-nav">
-          <ul class="mobile-nav-links">
-            <li><a href="index.html" class="mobile-nav-link"><span>Home</span></a></li>
-            <li><a href="about-us.html" class="mobile-nav-link"><span>About Us</span></a></li>
-            <li class="mobile-dropdown-item">
-              <div class="mobile-dropdown-trigger" id="mobileCategoriesTrigger">
-                <span>Categories (11 Services)</span>
-                <svg class="chevron-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
-              </div>
-              <div class="mobile-dropdown-sublist" id="mobileCategoriesSublist">
-                <a href="categories.html#01"><span class="num">01</span> Bahrain Visa & Residence Permits</a>
-                <a href="categories.html#02"><span class="num">02</span> Company Formation Services</a>
-                <a href="categories.html#03"><span class="num">03</span> Bahrain Golden Visa Services</a>
-                <a href="categories.html#04"><span class="num">04</span> Family Joining Visa (KSA)</a>
-                <a href="categories.html#05"><span class="num">05</span> Document Attestation Services</a>
-                <a href="categories.html#06"><span class="num">06</span> Self-Sponsorship Visa</a>
-                <a href="categories.html#07"><span class="num">07</span> Global Visa Assistance</a>
-                <a href="categories.html#08"><span class="num">08</span> Saudi Visa Services</a>
-                <a href="categories.html#09"><span class="num">09</span> Management & Admin Consultancy</a>
-                <a href="categories.html#10"><span class="num">10</span> Annual Compliance Services</a>
-                <a href="categories.html#11"><span class="num">11</span> WPS Full Set Up & Support</a>
-              </div>
-            </li>
-            <li><a href="blogs.html" class="mobile-nav-link"><span>Blogs</span></a></li>
-            <li><a href="faq.html" class="mobile-nav-link"><span>FAQ</span></a></li>
-            <li><a href="contact-us.html" class="mobile-nav-link active"><span>Contact Us</span></a></li>
-          </ul>
-        </nav>
-
-        <div class="mobile-drawer-footer">
-          <button class="btn-mobile-consult" data-open-modal="consultation">
-            <span>Book Consultation</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="7" y1="17" x2="17" y2="7"></line>
-              <polyline points="7 7 17 7 17 17"></polyline>
-            </svg>
-          </button>
-          <div class="mobile-quick-contacts">
-            <a href="tel:+97317226610" class="mobile-contact-pill">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              <span>+973 1722 6610</span>
-            </a>
-            <a href="https://wa.me/97339462618" target="_blank" rel="noopener noreferrer" class="mobile-contact-pill whatsapp">
-              <span>💬 WhatsApp Us</span>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </header>
 
   <main>
     <!-- Contact Hero -->
-    <section class="hero-section" style="min-height: auto; padding: 160px 0 60px 0;">
-      <div class="hero-glow-bg"></div>
-      <div class="container hero-content">
-        <div class="hero-badge">
-          <span>Direct Executive Support</span>
+    <section style="padding: 160px 0 60px 0; background: var(--bg-canvas);">
+      <div class="container">
+        <div style="max-width: 860px;">
+          <span class="mono-label">/DIRECT EXECUTIVE LIAISON</span>
+          <h1 style="font-family: var(--font-display); font-size: clamp(38px, 5vw, 64px); font-weight: 800; line-height: 1.05; letter-spacing: -0.03em; margin: 16px 0 24px 0; color: var(--text-primary);">
+            Connect With Our Senior<br>
+            <span style="color: var(--text-tertiary);">Government Relations Advisors</span>
+          </h1>
+          <p style="font-size: clamp(16px, 1.8vw, 19px); line-height: 1.6; color: var(--text-secondary); max-width: 680px;">
+            Located in the heart of Manama at Kingdom Tower, Al Hoora. Visit our corporate headquarters or schedule a dedicated advisory session.
+          </p>
         </div>
-        <h1 class="hero-title" style="font-size: 50px;">
-          Connect With Our Senior<br>
-          <span class="highlight-green">Government Relations Advisors</span>
-        </h1>
-        <p class="hero-subtitle">
-          Located in the heart of Manama at Kingdom Tower, Al Hoora. Visit our corporate office or schedule an advisory session.
-        </p>
       </div>
     </section>
 
-    <!-- Contact Details & Form Section -->
-    <section style="padding: 40px 0 100px 0; background: #ffffff;">
-      <div class="container" style="max-width: 1100px; margin: 0 auto;">
-        <div style="display: grid; grid-template-columns: 1fr 1.3fr; gap: 48px;">
-          <!-- Contact Info Column -->
-          <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 24px; padding: 40px;">
-            <span class="section-tag">Corporate Headquarters</span>
-            <h3 style="font-size: 24px; font-weight: 800; color: #090e17; margin: 10px 0 24px 0;">Kingdom of Bahrain</h3>
-            
-            <div style="display: flex; flex-direction: column; gap: 24px;">
-              <div style="display: flex; gap: 16px; align-items: flex-start;">
-                <div style="width: 44px; height: 44px; border-radius: 12px; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">📍</div>
-                <div>
-                  <h5 style="font-size: 15px; font-weight: 700; color: #090e17; margin-bottom: 4px;">Office Location</h5>
-                  <p style="font-size: 14px; color: #475569; line-height: 1.6;">Office No 21 & 22, Building 08, Road 1901, Block 319 Kingdom Tower, Al Hoora, Kingdom of Bahrain</p>
-                </div>
+    <!-- Contact Details & Form Section in Outset Chamfer Style -->
+    <section style="padding: 20px 0 90px 0; background: var(--bg-canvas);">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 32px;">
+          <!-- Contact Info Column (Chamfer Card) -->
+          <div class="chamfer-card" style="padding: clamp(32px, 5vw, 48px); background: #ffffff;">
+            <span class="mono-label">/MANAMA HEADQUARTERS</span>
+            <h2 style="font-family: var(--font-display); font-size: clamp(24px, 3vw, 32px); font-weight: 800; letter-spacing: -0.02em; margin: 12px 0 28px 0;">
+              Kingdom of Bahrain
+            </h2>
+
+            <div style="display: flex; flex-direction: column; gap: 28px;">
+              <div>
+                <span class="mono-label" style="color: var(--text-tertiary);">/OFFICE LOCATION</span>
+                <p style="font-size: 15px; color: var(--text-primary); font-weight: 500; line-height: 1.6; margin-top: 6px;">
+                  Office No 21 &amp; 22, Building 08, Road 1901, Block 319<br>
+                  Kingdom Tower, Al Hoora, Kingdom of Bahrain
+                </p>
               </div>
 
-              <div style="display: flex; gap: 16px; align-items: flex-start;">
-                <div style="width: 44px; height: 44px; border-radius: 12px; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">📞</div>
-                <div>
-                  <h5 style="font-size: 15px; font-weight: 700; color: #090e17; margin-bottom: 4px;">Telephone & Hotlines</h5>
-                  <p style="font-size: 14px; color: #475569; line-height: 1.6;"><strong>Landline:</strong> +973 17290001</p>
-                  <p style="font-size: 14px; color: #475569; line-height: 1.6;"><strong>Mobile 1:</strong> +973 39694343</p>
-                  <p style="font-size: 14px; color: #475569; line-height: 1.6;"><strong>Mobile 2:</strong> +973 39694436</p>
-                </div>
+              <div>
+                <span class="mono-label" style="color: var(--text-tertiary);">/TELEPHONE &amp; HOTLINES</span>
+                <p style="font-size: 15px; color: var(--text-primary); margin-top: 6px; line-height: 1.7;">
+                  <strong>Landline:</strong> <a href="tel:+97317290001" style="color: var(--text-primary); text-decoration: underline;">+973 17290001</a><br>
+                  <strong>Direct Mobile:</strong> <a href="tel:+97339694343" style="color: var(--text-primary); text-decoration: underline;">+973 39694343</a><br>
+                  <strong>Executive Mobile:</strong> <a href="tel:+97339694436" style="color: var(--text-primary); text-decoration: underline;">+973 39694436</a>
+                </p>
               </div>
 
-              <div style="display: flex; gap: 16px; align-items: flex-start;">
-                <div style="width: 44px; height: 44px; border-radius: 12px; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">💬</div>
-                <div>
-                  <h5 style="font-size: 15px; font-weight: 700; color: #090e17; margin-bottom: 4px;">Direct WhatsApp Consultation</h5>
-                  <p style="font-size: 14px; color: #475569; margin-bottom: 8px;">Instant messaging with our case managers.</p>
-                  <a href="https://wa.me/97339694343" target="_blank" style="font-size: 13.5px; font-weight: 700; color: #00A859;">Chat on WhatsApp →</a>
-                </div>
+              <div>
+                <span class="mono-label" style="color: var(--text-tertiary);">/OFFICIAL EMAIL</span>
+                <p style="font-size: 15px; margin-top: 6px;">
+                  <a href="mailto:info@diplomatbh.com" style="color: var(--text-primary); font-weight: 600; text-decoration: underline;">info@diplomatbh.com</a>
+                </p>
               </div>
 
-              <div style="display: flex; gap: 16px; align-items: flex-start;">
-                <div style="width: 44px; height: 44px; border-radius: 12px; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">🚚</div>
-                <div>
-                  <h5 style="font-size: 15px; font-weight: 700; color: #090e17; margin-bottom: 4px;">Free Document Courier</h5>
-                  <p style="font-size: 14px; color: #475569;">Complimentary pickup and delivery service across Bahrain.</p>
-                </div>
+              <div class="chamfer-card-dark" style="padding: 24px; border-radius: 6px;">
+                <span class="mono-label" style="color: var(--accent-cyan);">/COMPLIMENTARY DOCUMENT COURIER</span>
+                <p style="font-size: 14px; color: #cbd5e1; line-height: 1.6; margin-top: 8px;">
+                  Free corporate pickup and delivery for certified passports, MOFA attestations, and government files across all governorates of Bahrain.
+                </p>
+              </div>
+
+              <div>
+                <a href="https://wa.me/97339694343" target="_blank" rel="noopener noreferrer" class="btn-outset-primary" style="display: inline-flex; width: 100%; justify-content: center;">
+                  <span>Direct WhatsApp Liaison</span>
+                  <span class="badge-icon">💬</span>
+                </a>
               </div>
             </div>
           </div>
 
-          <!-- Form Column -->
-          <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 24px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-            <h3 style="font-size: 24px; font-weight: 800; color: #090e17; margin-bottom: 8px;">Send an Inquiry</h3>
-            <p style="font-size: 14px; color: #475569; margin-bottom: 24px;">An executive consultant will contact you within 24 hours.</p>
+          <!-- Form Column (Chamfer Card Dark or Crisp) -->
+          <div class="chamfer-card" style="padding: clamp(32px, 5vw, 48px); background: #ffffff;">
+            <span class="mono-label">/SUBMIT INQUIRY</span>
+            <h2 style="font-family: var(--font-display); font-size: clamp(24px, 3vw, 32px); font-weight: 800; letter-spacing: -0.02em; margin: 12px 0 8px 0;">
+              Executive Contact Form
+            </h2>
+            <p style="font-size: 14.5px; color: var(--text-secondary); margin-bottom: 28px;">
+              A senior government relations advisor will analyze your requirement and respond within 24 hours.
+            </p>
 
             <form id="contactPageForm">
-              <div class="form-group">
-                <label class="form-label">Full Name</label>
-                <input type="text" class="form-input" required placeholder="e.g. Mohammed Al Khalifa">
+              <div class="form-group-item">
+                <label class="form-label-text">Full Name</label>
+                <input type="text" class="form-field-input" required placeholder="e.g. Mohammed Al Khalifa">
               </div>
 
-              <div class="form-group">
-                <label class="form-label">Corporate Email or Phone</label>
-                <input type="text" class="form-input" required placeholder="name@company.com or +973 3969XXXX">
+              <div class="form-group-item">
+                <label class="form-label-text">Corporate Email or Phone</label>
+                <input type="text" class="form-field-input" required placeholder="name@company.com or +973 3969XXXX">
               </div>
 
-              <div class="form-group">
-                <label class="form-label">Interested Service Category</label>
-                <select class="form-select">
-                  <option>01. Bahrain Visa & Residence Permits</option>
+              <div class="form-group-item">
+                <label class="form-label-text">Interested Practice Category</label>
+                <select class="form-field-select">
+                  <option>01. Bahrain Visa &amp; Residence Permits</option>
                   <option>02. Company Formation Services (CR)</option>
                   <option>03. Bahrain Golden Visa (10 Years)</option>
                   <option>04. Family Joining Visa for KSA Residents</option>
@@ -223,19 +174,20 @@
                   <option>06. Self-Sponsorship Visa</option>
                   <option>07. Global Visa Assistance</option>
                   <option>08. Saudi Visa Services (Saudi Embassy Agent)</option>
-                  <option>09. Management & Admin Consultancy</option>
-                  <option>10. Annual Compliance Services (ESR & UBO)</option>
-                  <option>11. WPS Full Set Up & Support (LMRA)</option>
+                  <option>09. Management &amp; Admin Consultancy</option>
+                  <option>10. Annual Compliance Services (ESR &amp; UBO)</option>
+                  <option>11. WPS Full Set Up &amp; Support (LMRA)</option>
                 </select>
               </div>
 
-              <div class="form-group">
-                <label class="form-label">Specific Details / Requirement</label>
-                <textarea class="form-textarea" rows="4" placeholder="Briefly describe your requirements or inquiry..."></textarea>
+              <div class="form-group-item">
+                <label class="form-label-text">Specific Requirement / Scope</label>
+                <textarea class="form-field-textarea" rows="4" placeholder="Briefly describe your requirements or corporate inquiry..."></textarea>
               </div>
 
-              <button type="submit" class="btn-primary-pill" style="width: 100%; justify-content: center; background: #00A859;">
+              <button type="submit" class="btn-outset-primary" style="width: 100%; justify-content: center; margin-top: 8px;">
                 <span>Send Consultation Request</span>
+                <span class="badge-icon">↗</span>
               </button>
             </form>
           </div>
@@ -244,48 +196,168 @@
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <img src="assets/dms-logo-original.png" alt="Diplomat Management Services Co. W.L.L." class="footer-brand-img" style="height: 52px; width: auto;">
-          <p>Strategic Business Support & Government Relations Partner in the Kingdom of Bahrain. Established 1984.</p>
+  <!-- ========================================================================
+       FOOTER (EXACT OUTSET DIGITAL OBSIDIAN FOOTER)
+       ======================================================================== -->
+  <footer class="outset-footer" id="contact">
+    <div class="container footer-container">
+      <!-- Big Outset CTA Chamfer Card -->
+      <div class="footer-cta-card">
+        <div class="footer-cta-left">
+          <span class="mono-label" style="color: var(--accent-cyan);">/CONNECT WITH ADVISORS</span>
+          <h2 class="footer-cta-title">
+            Ready to streamline your<br>
+            Bahrain & GCC operations?
+          </h2>
+          <p class="footer-cta-subtitle">
+            Speak directly with our senior government relations consultants. Fast-track visas, ensure ESR compliance, and establish commercial headquarters with total peace of mind.
+          </p>
         </div>
-        <div class="footer-col">
-          <h5>Categories</h5>
-          <ul class="footer-links">
-            <li><a href="categories.html#01">Bahrain Visa & Permits</a></li>
-            <li><a href="categories.html#02">Company Formation</a></li>
-            <li><a href="categories.html#03">Bahrain Golden Visa</a></li>
-            <li><a href="categories.html#08">Saudi Visa Services</a></li>
-            <li><a href="categories.html#10">Compliance & WPS</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h5>Quick Links</h5>
-          <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="footer-col footer-contact-info">
-          <h5>Corporate Office</h5>
-          <p>Office No 21 & 22, Building 08, Road 1901, Block 319 Kingdom Tower, Al Hoora, Bahrain</p>
-          <p><strong>Tel:</strong> +973 17290001</p>
-          <p><strong>Mobile:</strong> +973 39694343</p>
+        <div class="footer-cta-right">
+          <button class="btn-outset-primary" data-open-modal="consultation">
+            <span>Schedule consultation</span>
+            <span class="badge-icon">↗</span>
+          </button>
+          <a href="https://wa.me/97339694343" target="_blank" rel="noopener noreferrer" class="btn-outset-dark">
+            <span>Chat on WhatsApp</span>
+            <span class="badge-icon">💬</span>
+          </a>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>© 1984 – 2026 Diplomat Management Services Co. W.L.L. All rights reserved.</p>
-        <p>Reliable · Resourceful · Responsible</p>
+
+      <!-- Main Footer Columns -->
+      <div class="footer-main-grid">
+        <div class="footer-brand-col">
+          <img src="assets/dms-logo-original.png" alt="Diplomat Management Services" class="footer-brand-logo">
+          <p class="footer-brand-desc">
+            Strategic Business Support &amp; Government Relations Partner in the Kingdom of Bahrain. Official Saudi Embassy Visa Agent and Registered LMRA Agency.
+          </p>
+          <div class="footer-license-badge">
+            <span class="dot-live"></span>
+            <span>Est. 1984 · CR Registered Co. W.L.L. · Kingdom of Bahrain</span>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-col-heading">Practice Areas</span>
+          <ul class="footer-col-list">
+            <li><a href="categories.html#01">Bahrain Visa &amp; Residence</a></li>
+            <li><a href="categories.html#02">Company Formation &amp; CR</a></li>
+            <li><a href="categories.html#03">Bahrain Golden Visa (10-Yr)</a></li>
+            <li><a href="categories.html#04">Saudi Family Joining Visa</a></li>
+            <li><a href="categories.html#05">Document Attestation (MOFA)</a></li>
+            <li><a href="categories.html#08">Official Saudi Embassy Agent</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-col-heading">Company</span>
+          <ul class="footer-col-list">
+            <li><a href="index.html">Home Overview</a></li>
+            <li><a href="about-us.html">About Diplomat (1984)</a></li>
+            <li><a href="categories.html">All 11 Practice Areas</a></li>
+            <li><a href="blogs.html">Regulatory Insights &amp; Blogs</a></li>
+            <li><a href="faq.html">Frequently Asked Questions</a></li>
+            <li><a href="contact-us.html">Direct Contact Office</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <span class="footer-col-heading">Manama Headquarters</span>
+          <p class="footer-contact-addr">
+            Office No 21 &amp; 22, Building 08, Road 1901, Block 319<br>
+            Kingdom Tower, Al Hoora, Kingdom of Bahrain
+          </p>
+          <div class="footer-contact-item">
+            <span class="contact-lbl">Direct Telephone:</span>
+            <a href="tel:+97317290001" class="contact-val">+973 17290001</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="contact-lbl">Executive Hotline / WhatsApp:</span>
+            <a href="tel:+97339694343" class="contact-val">+973 39694343</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="contact-lbl">Official Email:</span>
+            <a href="mailto:info@diplomatbh.com" class="contact-val">info@diplomatbh.com</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Line with Notch -->
+      <div class="footer-bottom-line-wrap">
+        <div class="footer-bottom-notch">
+          <div class="footer-bottom-legal">
+            <span>@1984 – 2026 DIPLOMAT MANAGEMENT SERVICES CO. W.L.L. ALL RIGHTS RESERVED.</span>
+            <span>RELIABLE · RESOURCEFUL · RESPONSIBLE</span>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
 
+  <!-- ========================================================================
+       CONSULTATION MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="consultationModal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close-icon" id="btnCloseModal" aria-label="Close Modal">✕</button>
+      <h3 style="font-size: 24px; font-weight: 800; margin-bottom: 8px;">Schedule an Advisory Consultation</h3>
+      <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 24px;">
+        Connect with our senior government relations advisors for tailored compliance and visa execution in Bahrain.
+      </p>
+
+      <form id="consultationForm">
+        <div class="form-group-item">
+          <label class="form-label-text">Full Name</label>
+          <input type="text" class="form-field-input" required placeholder="e.g. Mohammed Al Khalifa">
+        </div>
+
+        <div class="form-group-item">
+          <label class="form-label-text">Corporate Email or Phone</label>
+          <input type="text" class="form-field-input" required placeholder="e.g. name@company.com or +973 3969XXXX">
+        </div>
+
+        <div class="form-group-item">
+          <label class="form-label-text">Interested Practice Area</label>
+          <select class="form-field-select" id="modalServiceSelect">
+            <option value="Bahrain Visa & Residence Permits">Bahrain Visa & Residence Permits</option>
+            <option value="Company Formation Services">Company Formation & CR Setup</option>
+            <option value="Bahrain Golden Visa Services">Bahrain Golden Visa (10 Years)</option>
+            <option value="Saudi Visa Services">Saudi Visa Services (Embassy Agent)</option>
+            <option value="Family Joining Visa for KSA Residents">Family Joining Visa for KSA Residents</option>
+            <option value="Document Attestation Services">Document Attestation (MOFA/Embassies)</option>
+            <option value="Self-Sponsorship Visa Services">Self-Sponsorship Visa</option>
+            <option value="Annual Compliance Services">Annual Compliance (ESR / UBO)</option>
+            <option value="WPS Set Up & Support Services">WPS & LMRA Setup</option>
+            <option value="Management & Admin Consultancy">Management & Admin Consultancy</option>
+          </select>
+        </div>
+
+        <div class="form-group-item">
+          <label class="form-label-text">Specific Details / Requirement</label>
+          <textarea class="form-field-textarea" rows="3" placeholder="Briefly describe your business requirement..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-outset-primary" style="width: 100%; justify-content: center;">
+          <span>Submit Consultation Request</span>
+          <span class="badge-icon">↗</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Action -->
+  <a href="https://wa.me/97339694343?text=Hello%20Diplomat%20Management%20Services,%20I%20would%20like%20to%20inquire%20about%20your%20services." 
+     class="floating-whatsapp-btn" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Direct WhatsApp Consultation with Diplomat">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.043.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.203c.043.072.043.419-.101.824z"/>
+    </svg>
+  </a>
+
+  <!-- Interactive JavaScript Logic -->
   <script src="app.js"></script>
 </body>
 </html>
